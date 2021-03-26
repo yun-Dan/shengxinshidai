@@ -1,0 +1,127 @@
+/* common CSS */
+.four-align-center {
+  text-align: center;
+}
+
+/* 穿梭框 .app-el-transfer */
+.app-el-transfer .el-transfer__buttons{
+  padding: 0 20px;
+}
+.app-el-transfer .el-transfer__buttons .el-button {
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* 列表-检索 */
+.query-box .el-form--inline .el-form-item {
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+
+/* FourClassIndex.vue */
+.four-class-index .four-class-index-btns .el-button{
+  margin: 0 4px !important;
+}
+.four-class-index .users-college-main .el-table .el-table__expand-icon {
+  display: none;
+}
+.four-class-index .users-college-main .el-table .el-table__expanded-cell{
+  padding: 0 !important;
+  border: none;
+}
+.four-class-index .users-college-main .el-table .users-college-main-expand{
+  padding: 0 50px;
+  border-bottom: 1px solid #EBEEF5;
+}
+/* FourClassForm.vue */
+.four-major-form .four-major-form-course .el-input__inner {
+  padding: 0 4px;
+  text-align: center;
+}
+.four-major-form .four-major-form-course tbody td,
+.four-major-form .four-major-form-course tbody .cell {
+  padding: 0 !important;
+}
+
+/* 消息管理 */
+
+.news-table-box .news-table .sys-type-1 {
+  background: rgb(187, 12, 45, 0.01);
+}
+.news-table-box .news-table .sys-type-2 {
+  background: rgb(193, 161, 14, 0.02);
+}
+.news-table-box .news-table .sys-type-3 {
+  background: rgb(68, 172, 182, 0.02);
+}
+
+/* AppSignView.vue */
+.sign-view-form .el-input__inner{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* 用于定位主体顶部 */
+.four-fixed-body-top{
+  position: fixed;
+  top: 110px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid #ebeef5;
+  text-align: right;
+}
+
+/* 证书申领（申请修改页） */
+.app-certificate-apply .certificate-apply-s-table .el-input__inner{
+  padding: 0 2px;
+}
+.app-certificate-apply .certificate-apply-s-table .el-input__suffix{
+  display: none;
+}
+.app-certificate-apply .certificate-apply-form .el-form-item{
+  margin-bottom: 14px;
+}
+.app-certificate-apply .certificate-apply-form .el-form-item__label{
+  line-height: 20px;
+}
+.app-certificate-apply .certificate-apply-form .el-form-item__content{
+  line-height: 30px;
+  padding: 0 10px;
+}
+.app-certificate-apply .olddata-row{
+  background: #f0f9eb;
+}
+.app-certificate-apply .newdata-row{
+  background: #f5f7fa;
+}
+.app-certificate-apply .el-table--enable-row-hover .el-table__body tr:hover>td{
+  background-color: transparent;
+}
+.sign-view-body .sign-view-form .el-form-item__label{
+  line-height: 30px;
+}
+
+/* AppStudentsList.vue */
+.app-students-list .el-table__expand-column i{
+  display: none;
+}
+.app-students-list .el-table__body .el-table__expanded-cell{
+  padding: 4px 50px;
+  background-color: #fafafa;
+}
+.app-students-list .el-table__body .el-table__expanded-cell .el-form-item{
+  margin-bottom: 0;
+}
+.app-students-list .el-table__body .el-table__expanded-cell .el-form-item__label{
+  color: #8c9aae;
+}
+
+.app-project-declare #sealPicDiv1zxy {
+  left: 440px !important;
+  top: 120px !important;
+}
+.app-project-declare #sealPicDiv2zxy {
+  left: 350px !important;
+  top: 38px !important;
+}

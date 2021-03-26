@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web
+END
+CDL.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/CDL.min.js
+END
+viewer.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/develop/SignPdf/!svn/ver/11405/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/viewer.html
+END
+PDFSealApi.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/develop/SignPdf/!svn/ver/11415/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/PDFSealApi.min.js
+END
+pdf.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/pdf.min.js
+END
+viewer.css
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/viewer.css
+END
+sm2.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/sm2.pdf
+END
+1-rsa.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/1-rsa.pdf
+END
+1-rsa_sign.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/1-rsa_sign.pdf
+END
+CDL.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/CDL.js
+END
+pdf.worker.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/develop/SignPdf/!svn/ver/11252/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/pdf.worker.min.js
+END
+viewer.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/develop/SignPdf/!svn/ver/11407/4Code/01Trunk/ESS-PDFV2.0/mod_websocket_pdfsign/Reader_And_ProxySeal/min/web/viewer.min.js
+END

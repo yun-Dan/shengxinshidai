@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>继续教育微系统</title>
+  <!--if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script>document.createElement('main');</script>
+    <style>header,nav,article,section,aside,footer,main{display:block;}</style>
+  <![endif]-->
+  <script>
+    //设置适口及缩放比例，目的：实现像素1:1还原
+    var ratio = 1 / window.devicePixelRatio;
+    // window.devicePixelRatio像素比
+    document.write('<meta name="viewport" content="width=device-width,initial-scale=' + ratio + ',user-scalable=yes" />')
+    //设置html字体大小
+    //以750尺寸计算
+    var size = document.documentElement.clientWidth / 20;
+    //html的font-size是100px,即1rem  1rem = 20px
+    document.getElementsByTagName('html')[0].style.fontSize = size + 'px';
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- PDF签章 -->
+  <SCRIPT type="text/javascript" src="/static/sign/js/pdfsign.js"></SCRIPT>
+  <SCRIPT type="text/javascript" src="/static/sign/js/WS_pdfsign.js"></SCRIPT>
+</body>
+
+</html>

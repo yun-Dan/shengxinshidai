@@ -1,0 +1,44 @@
+{
+  "name": "ruc-xygl-peixun",
+  "version": "4.0.0",
+  "author": "YINGYAN <761909269@qq.com> 2019-04-03",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "npm run serve",
+    "build": "vue-cli-service build --mode production",
+    "test": "vue-cli-service build --mode test"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "echarts": "^4.7.0",
+    "element-ui": "^2.13.0",
+    "font-awesome": "^4.7.0",
+    "js-md5": "^0.7.3",
+    "v-charts": "^1.19.0",
+    "vue": "^2.6.6",
+    "vue-cookie": "^1.1.4",
+    "vue-router": "^3.0.1",
+    "vue-ueditor-wrap": "^2.4.1",
+    "vue-simple-ueditor": "^1.0.7-release",
+    "vue-wechat-title": "^2.0.7",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-plugin-unit-jest": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-polyfill": "^6.26.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

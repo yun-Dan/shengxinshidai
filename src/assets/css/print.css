@@ -1,0 +1,72 @@
+/*居中定宽*/
+#print {
+  height: 100%;
+  background: url("../../assets/images/01hhh.jpg");
+  overflow-y: auto;
+  font-family: '宋体';
+  font-size: 12px;
+}
+
+#print .app-print-content {
+  width: 610px;
+  margin: 0 auto;
+}
+
+/*head*/
+#print .print-header {
+  height: 123px;
+  padding: 2px 0;
+}
+
+#print .title {
+  height: 54px;
+  line-height: 54px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+#print .sub-title {
+  font-size: 12px;
+  text-align: center;
+}
+
+#print .img-box {
+  text-align: right;
+}
+
+#print .coding {
+  text-align: right;
+  margin: 6px;
+}
+
+#print .coding-num {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+@media print {
+  .zsjz-look-head {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.3em;
+    color: #000;
+    font-family: "SimSun";
+    margin-bottom: 24px;
+    padding-top: 30px;
+  }
+
+  .zsjz-look-content {
+    width: 624px !important;
+    margin: 0 auto !important;
+    overflow-x: hidden !important;
+    font-size: 16px !important;
+    /*font-family: "SimSun" !important;*/
+    font-family: "仿宋";
+    line-height: 1.4em !important;
+    color: #444 !important;
+  }
+}

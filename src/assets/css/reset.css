@@ -1,0 +1,128 @@
+body,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-size: 14px;
+  height: 100%;
+}
+
+input {
+  border: none;
+  padding: 0;
+}
+
+/*html5兼容*/
+header,
+nav,
+article,
+section,
+aside,
+footer {
+  display: block;
+}
+
+/*富文本编辑框*/
+.w-e-menu:nth-of-type(5),
+.w-e-menu:nth-of-type(7),
+.w-e-menu:nth-of-type(8),
+.w-e-menu:nth-of-type(9),
+.w-e-menu:nth-of-type(10),
+.w-e-menu:nth-of-type(14),
+.w-e-menu:nth-of-type(15),
+.w-e-menu:nth-of-type(17),
+.w-e-menu:nth-of-type(18) {
+  display: none;
+  padding: 5px 0;
+}
+
+/*招生简章预览*/
+.zsjz-look-head {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.3em;
+  color: #000;
+  font-family: "SimSun";
+  margin-bottom: 24px;
+}
+
+.zsjz-look-content {
+  width: 630px !important;
+  margin: 0 auto !important;
+  overflow-x: hidden !important;
+  font-family: "SimSun" !important;
+  color: #444d56;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.zsjz-look-content table,
+.zsjz-look-content tr,
+.zsjz-look-content td {
+  border: 1px solid #000 !important;
+  border-collapse: collapse !important;
+}
+
+.zsjz-look-content .zsjz-look-content-adm_course {
+  padding: 14px 0;
+}
+
+/*菜单点亮的背景色*/
+.el-menu-item.is-active {
+  background-color: #252B32 !important;
+}
+
+/*全局设置滚动条的样式*/
+::-webkit-scrollbar {
+  /*    width:5px;*/
+  /*    height:16px;*/
+  width: 5px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track-piece {
+  /*    !*修改滚动条的背景和圆角*!*/
+  /*    background:#abcdef;*/
+  /*    -webkit-border-radius:6px;*/
+  background: #fff;
+}
+
+/*修改垂直滚动条的样式*/
+::-webkit-scrollbar-thumb:vertical {
+  /*    background-color: #ffffff;*/
+  /*    -webkit-border-radius:6px;*/
+  background-color: #ebeef5;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+/*修改水平滚动条的样式*/
+::-webkit-scrollbar-thumb:horizontal {
+  /*    background-color: #faa;*/
+  /*    -webkit-border-radius:6px;*/
+  background-color: #cbcfd6;
+}
+
+/*disabled*/
+#app .el-input.is-disabled .el-input__inner {
+  color: #303133;
+}

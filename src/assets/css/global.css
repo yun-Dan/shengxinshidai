@@ -1,0 +1,569 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  background-color: rgb(46, 54, 63);
+}
+
+/* html,
+body,
+#app {
+  overflow: hidden;
+} */
+
+[v-cloak] {
+  display: none;
+}
+
+/***  输入框内容居中显示 ***/
+.input-center input {
+  text-align: center;
+}
+
+/*** 输入框的文字提示 ***/
+.input-tip {
+  height: 12px;
+  line-height: 12px;
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+.tip-red {
+  color: #f56c6c;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.primary {
+  color: #409EFF;
+}
+
+.success {
+  color: #67C23A;
+}
+
+.success2 {
+  color: #2f9f93;
+}
+
+.warning {
+  color: #E6A23C;
+}
+
+.danger {
+  color: #F56C6C;
+}
+
+.danger2 {
+  color: #b5223e;
+}
+
+.info {
+  color: #909399;
+}
+
+.set-align-center{
+  text-align: center;
+}
+.set-font-weight{
+  font-weight: 600;
+}
+.set-text-indent{
+  text-indent: 2em;
+}
+
+
+/**  菜单栏**/
+.aside-menu i.el-submenu__icon-arrow {
+  right: 35px;
+}
+
+.aside-menu .el-menu-item,
+.el-submenu__title {
+  height: 50px;
+  line-height: 50px;
+}
+
+#app-home .el-card__body {
+  padding: 0 20px;
+}
+
+#app-home .el-table,
+.el-popover .el-table {
+  font-size: 12px;
+}
+
+.page-box {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#app-home input,
+#app-home label,
+#app-home select,
+#app-home option,
+#app-home textarea,
+#app-home button,
+#app-home fieldset,
+#app-home legend,
+#app-home label span {
+  font-size: 12px;
+}
+
+.query-box .el-select .el-input {
+  width: 120px;
+  /* margin-bottom: 10px; */
+}
+
+.query-box2 .el-select .el-input {
+  width: 180px;
+  /* margin-bottom: 10px; */
+}
+
+/*、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、*/
+/* 1、选择框的宽度设置*/
+/*.el-select .el-input{*/
+/*width: 120px;*/
+/*margin-bottom: 10px;*/
+/*margin-right: 14px;*/
+/*}*/
+/*[data-v-7949b532] .el-select .el-input,  [data-v-4eabeb5e] .el-select .el-input{*/
+/*width: 200px;*/
+/*}*/
+/* 2、选择框宽的宽度设置 -- 每页显示条数*/
+.select-page .el-input {
+  width: 80px;
+}
+
+/* 3、搜索框设置宽度 */
+.search-box {
+  width: 200px;
+  float: right;
+}
+
+.search-box .el-input {
+  width: 100%;
+}
+
+#app .input-with-select {
+  width: 244px;
+}
+.el-image-viewer__wrapper .el-image-viewer__close .el-icon-circle-close{
+  color: #fff;
+}
+
+/*******************************************************  以上为全局设置 ****************************************************/
+/**************************************************  以下为模块私有样式设置****************************************************/
+/* login */
+.px-login .el-card__header {
+  padding: 12px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.px-login .el-input__inner {
+  background-color: transparent;
+  border-color: #999;
+}
+
+.px-login .el-input__icon {
+  color: #909399;
+}
+
+.px-login input::-webkit-input-placeholder {
+  color: #909399;
+}
+
+.px-login input::-moz-input-placeholder {
+  color: #909399;
+}
+
+.px-login input::-ms-input-placeholder {
+  color: #909399;
+}
+
+/* home */
+#app,
+#app-home {
+  height: 100%;
+}
+
+#app-home>section.el-container {
+  height: 100%;
+}
+
+/* 系统主页 */
+#app .app-index-index .el-card__body {
+  padding: 20px;
+}
+
+/* weixin-text*/
+#app-home .text-table[data-v-a77e3d8a] .cell {
+  line-height: 16px;
+}
+
+/*project*/
+#app-home .shift-box .el-input {
+  width: 300px;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+
+.app-project-add .step-0 tbody .el-input__inner,
+.app-project-add .step-1 tbody .el-input__inner,
+.app-project-add .step-4 tbody .el-input__inner,
+.app-certificate-apply .input-center .el-input__inner {
+  border: none;
+}
+
+/*新增项目*/
+.project-add-main-body .el-select .el-input {
+  width: 100%;
+}
+
+.project-add-main-body .el-input-number .el-input {
+  width: 100%;
+}
+
+.project-add-main-body .el-form-item {
+  margin-bottom: 14px;
+}
+
+.course-box .el-input__inner {
+  padding: 0 2px;
+}
+
+.course-box .el-date-editor.el-input {
+  width: 100%;
+}
+
+/*books*/
+.books-add-main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.app-books-add .el-select {
+  display: block;
+}
+
+.app-books-add .el-select .el-input {
+  width: 100%;
+}
+
+.app-books-entering .el-select .el-input {
+  width: 100%;
+}
+
+/*assess*/
+.app-assess-questionnaire .el-checkbox+.el-checkbox {
+  margin-left: 0;
+  margin-right: 4px;
+}
+
+/*项目列表的展开行设置（import！）  */
+.app-project-index .el-table__expanded-cell[class*=cell],
+.app-protocol-entrust .el-table__expanded-cell[class*=cell],
+.entrust-table-table .el-table__expanded-cell[class*=cell],
+.app-protocol-college .el-table__expanded-cell[class*=cell],
+.college-table-table .el-table__expanded-cell[class*=cell],
+.app-protocol-assist .el-table__expanded-cell[class*=cell],
+.app-certificate-index .el-table__expanded-cell[class*=cell],
+.app-certificate-bill .el-table__expanded-cell[class*=cell],
+.app-books-visit .el-table__expanded-cell[class*=cell],
+.classroom-record-info-table .el-table__expanded-cell[class*=cell],
+.app-classroom-finance .el-table__expanded-cell[class*=cell] {
+  padding: 0;
+  border: none;
+}
+
+.app-project-index .el-table__expanded-cell[class*=cell] li,
+.app-protocol-entrust .el-table__expanded-cell[class*=cell] li,
+.entrust-table-table .el-table__expanded-cell[class*=cell] li,
+.app-protocol-college .el-table__expanded-cell[class*=cell] li,
+.college-table-table .el-table__expanded-cell[class*=cell] li,
+.app-protocol-assist .el-table__expanded-cell[class*=cell] li,
+.app-certificate-index .el-table__expanded-cell[class*=cell] li,
+.app-certificate-bill .el-table__expanded-cell[class*=cell] li,
+.app-books-visit .el-table__expanded-cell[class*=cell] li,
+.classroom-record-info-table .el-table__expanded-cell[class*=cell] li,
+.app-classroom-finance .el-table__expanded-cell[class*=cell] li {
+  padding: 4px 40px 0;
+}
+
+.app-project-index .el-table__expanded-cell[class*=cell] li:last-child,
+.app-protocol-entrust .el-table__expanded-cell[class*=cell] li:last-child,
+.entrust-table-table .el-table__expanded-cell[class*=cell] li:last-child,
+.app-protocol-college .el-table__expanded-cell[class*=cell] li:last-child,
+.college-table-table .el-table__expanded-cell[class*=cell] li:last-child,
+.app-protocol-assist .el-table__expanded-cell[class*=cell] li:last-child,
+.app-certificate-index .el-table__expanded-cell[class*=cell] li:last-child,
+.app-certificate-bill .el-table__expanded-cell[class*=cell] li:last-child,
+.app-books-visit .el-table__expanded-cell[class*=cell] li:last-child,
+.classroom-record-info-table .el-table__expanded-cell[class*=cell] li:last-child,
+.app-classroom-finance .el-table__expanded-cell[class*=cell] li:last-child {
+  border-bottom: 1px solid #ebeef5;
+  padding-bottom: 4px;
+}
+
+.app-project-index .el-table__expand-column,
+.app-protocol-entrust .el-table__expand-column,
+.entrust-table-table .el-table__expand-column,
+.app-protocol-college .el-table__expand-column,
+.college-table-table .el-table__expand-column,
+.app-protocol-assist .el-table__expand-column,
+.app-certificate-index .el-table__expand-column,
+.app-certificate-bill .el-table__expand-column,
+.app-books-visit .el-table__expand-column,
+.classroom-record-info-table .el-table__expand-column,
+.app-classroom-finance .el-table__expand-column {
+  padding: 0;
+  border: none;
+  width: 0;
+  height: 0;
+}
+
+.app-project-index .el-table__expand-column .el-icon-arrow-right,
+.app-protocol-entrust .el-table__expand-column .el-icon-arrow-right,
+.entrust-table-table .el-table__expand-column .el-icon-arrow-right,
+.app-protocol-college .el-table__expand-column .el-icon-arrow-right,
+.college-table-table .el-table__expand-column .el-icon-arrow-right,
+.app-protocol-assist .el-table__expand-column .el-icon-arrow-right,
+.app-certificate-index .el-table__expand-column .el-icon-arrow-right,
+.app-certificate-bill .el-table__expand-column .el-icon-arrow-right,
+.app-books-visit .el-table__expand-column .el-icon-arrow-right,
+.classroom-record-info-table .el-table__expand-column .el-icon-arrow-right,
+.app-classroom-finance .el-table__expand-column .el-icon-arrow-right {
+  display: none;
+}
+
+/*财务*/
+.app-finance-account-js .demo-table-expand label {
+  color: #8c9aae;
+}
+
+.app-finance-account-js .demo-table-expand .el-form-item__content {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.app-finance-account-js .el-form-item__label {
+  line-height: 20px;
+}
+
+/*  加载loading */
+#app .el-loading-spinner {
+  top: 40%;
+  font-size: 30px;
+}
+
+#app .el-loading-mask {
+  z-index: 3000;
+}
+
+/*考核页面form表单的label*/
+.app-assess-result-set .el-form-item__label {
+  line-height: 14px;
+}
+
+/* 新增辅助编辑协议*/
+.app-protocol-assist-add-edit .el-form-item,
+.app-protocol-entrust-add-edit .el-form-item,
+.app-protocol-college-add-edit .el-form-item {
+  margin-bottom: 10px;
+}
+
+/* form表单的间距 */
+.finance-account-check-form .el-form-item,
+.app-certificate-info .el-form-item,
+.certificate-check-form .el-form-item,
+.protocol-entrust-info-form .el-form-item,
+.protocol-college-info-form .el-form-item,
+.app-books-card-info .el-form-item,
+.app-books-visit-info .el-form-item {
+  margin-bottom: 0;
+}
+
+/*提示数量*/
+.backlog-card-box .el-badge__content {
+  font-size: 16px;
+}
+
+/*表单项间距（总体考核、非标准协议）*/
+.app-assess-result-history .demo-form-inline .el-form-item {
+  width: 30%;
+  margin-bottom: 0;
+}
+
+/*主体设置背景色*/
+.app-home-main-row {
+  background-color: #fff;
+}
+
+/*card-box下边框*/
+.app-home-main-row .el-card {
+  border-bottom: none;
+}
+
+.app-index-index .el-card {
+  border-bottom: 1px solid #ebeef5;
+}
+
+/*card-box阴影*/
+.app-home-main-row .el-card.is-always-shadow,
+.app-home-main-row .el-card.is-hover-shadow:focus,
+.app-home-main-row .el-card.is-hover-shadow:hover {
+  -webkit-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0);
+}
+
+/*table表体错位问题*/
+body .el-table .el-table__header-wrapper th {
+  display: table-cell !important;
+}
+
+/*项目考核的全选按钮（禁用）*/
+.app-assess-result-set .assess-result-set-table-item thead .el-checkbox {
+  display: none;
+}
+
+/*上传头像*/
+.weixin-image-avatar .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.weixin-image-avatar .el-upload:hover {
+  border-color: #409EFF;
+}
+
+.weixin-image-avatar .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+
+.weixin-image-avatar .avatar {
+  width: 178px;
+  height: 178px;
+  display: block;
+}
+
+/*表格内容行高*/
+.app-data-index .el-table .cell {
+  line-height: 16px;
+}
+
+.app-map-box .el-tabs__header {
+  margin: 0;
+}
+
+.el-tabs__content {
+  border: 1px solid #ebeef5;
+  border-top: none;
+}
+
+.app-classroom-image .el-button--text {
+  background-color: #fff;
+  padding-right: 4px;
+  padding-left: 4px;
+  font-size: 14px !important;
+}
+
+.app-classroom-image .el-button--text:active,
+.app-classroom-image .el-button--text:focus,
+.app-classroom-image .el-button--text:hover {
+  background-color: #fff;
+}
+
+.app-classroom-image .el-badge__content {
+  font-size: 18px;
+}
+
+#sigDIV {
+  position: relative;
+}
+
+#sealPicDiv1 {
+  left: 350px !important;
+  top: 38px !important;
+}
+
+/*首页待办项*/
+.backlog-card-box .el-table--mini td,
+.backlog-card-box .el-table--mini th {
+  padding: 4px 0;
+}
+
+/* 穿梭框 .app-el-transfer */
+.app-el-transfer .el-transfer-panel {
+  width: 40%;
+}
+
+.app-el-transfer .el-transfer-panel__filter {
+  margin: 0;
+  padding: 2px 15px 8px;
+}
+
+.app-el-transfer .el-transfer-panel__filter .el-input__icon {
+  margin-left: 15px;
+}
+
+.app-el-transfer .el-transfer-panel__item.el-checkbox {
+  display: block;
+}
+
+.app-el-transfer .el-transfer {
+  height: 500px;
+}
+
+.app-el-transfer .el-transfer-panel,
+.app-el-transfer .el-transfer-panel__body {
+  height: 100%;
+}
+
+.app-el-transfer .el-transfer-panel__list.is-filterable {
+  height: 400px;
+}
+
+.app-el-transfer .el-checkbox__input.is-disabled+span.el-checkbox__label {
+  color: #606266;
+}
+
+/*手机端课程评估问卷报告数据*/
+.report-index-dialog-set .el-dialog__body {
+  position: relative;
+  height: 70%;
+}
+
+.report-index-dialog-set .el-dialog__body .el-input__inner {
+  height: 66px;
+  font-size: 22px;
+}

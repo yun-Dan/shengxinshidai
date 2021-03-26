@@ -1,0 +1,454 @@
+/*   @居中   */
+.text-align-center {
+  text-align: center;
+}
+
+/*   @首行缩进2em   */
+.div-text-indent {
+  text-indent: 2em;
+}
+
+/*  @禁用状态的表单元素  */
+.el-form .el-input.is-disabled .el-input__inner,
+.el-form .el-textarea.is-disabled .el-textarea__inner {
+  color: #606266;
+}
+
+.el-form .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner,
+/* 多选框 */
+.el-form .el-radio__input.is-disabled.is-checked .el-radio__inner
+
+/* 单选框 */
+  {
+  background-color: #409EFF;
+  border-color: #409EFF;
+}
+
+.el-form .el-checkbox__input.is-disabled.is-checked+.el-checkbox__label,
+/* 多选框 */
+.el-form .el-radio__input.is-checked.is-checked+.el-radio__label
+
+/* 单选框 */
+  {
+  color: #409EFF;
+}
+
+.el-form .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after
+
+/* 多选框 */
+  {
+  border-color: #fff;
+}
+
+.el-form .el-radio__input.is-disabled.is-checked .el-radio__inner::after
+
+/* 单选框 */
+  {
+  background-color: #fff;
+}
+
+/*  @表单form （submit-el-form）*/
+.submit-el-form .el-input-number,
+/*计数器*/
+.submit-el-form .el-select,
+/*选择器*/
+.submit-el-form .el-cascader,
+/*联级选择器*/
+.submit-el-form .upload,
+.submit-el-form .el-upload,
+.submit-el-form .el-upload .el-button,
+/*上传*/
+.submit-el-form .el-date-editor.el-input,
+/*时间选择器*/
+.submit-el-form .el-date-editor.el-input__inner
+
+/*时间选择器*/
+  {
+  width: 100%;
+}
+
+/*  @弹窗的关闭icon  */
+.el-dialog__headerbtn {
+  font-size: 26px !important;
+}
+
+/*  @弹窗中的form   */
+.el-dialog .el-form-item {
+  margin-bottom: 10px;
+}
+
+/*  @菜单权限tree设置 */
+.menu-auth-tress .el-tree-node__label {
+  padding: 0 8px;
+}
+
+.menu-auth-tress .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner {
+  background-color: #409EFF;
+  border-color: #409EFF;
+}
+
+.menu-auth-tress .el-checkbox__input.is-disabled.is-checked .el-checkbox__inner::after {
+  border-color: #fff;
+}
+
+/*   @项目——课程信息   */
+.step-1 .el-table .el-button+.el-button {
+  margin-left: 0;
+}
+
+/*  @项目审核——审核_单选   */
+.app-project-check .collapse-check-box .el-radio-group {
+  line-height: 40px;
+}
+
+/*  @项目新增——折叠面板   */
+.project-collapse.el-collapse {
+  border-color: #d1d5da;
+}
+
+.project-collapse .el-collapse-item .el-collapse-item__header,
+.project-collapse .el-collapse-item .el-collapse-item__header.is-active {
+  background-color: #f4f4f4;
+  color: #303133;
+  border-color: #d1d5da;
+}
+
+.project-collapse .el-collapse-item .el-collapse-item__wrap {
+  padding-top: 20px;
+}
+
+/*  @日程管理——查询头部 */
+.app-schedule-index-search .el-form--inline .el-form-item {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+/*  @日程管理 */
+.app-schedule-leader .el-calendar-table .el-calendar-day:hover,
+.app-schedule-meetingroom .el-calendar-table .el-calendar-day:hover {
+  cursor: inherit;
+  background-color: inherit;
+}
+
+.app-schedule-leader .el-calendar-table .el-calendar-day,
+.app-schedule-meetingroom .el-calendar-table .el-calendar-day {
+  height: auto;
+  min-height: 70px;
+}
+
+.app-schedule-leader .el-calendar-table td .calendar-content-btn-box,
+.app-schedule-meetingroom .el-calendar-table td .calendar-content-btn-box {
+  display: none;
+}
+
+.app-schedule-leader .el-calendar-table .current:hover .calendar-content-btn-box,
+.app-schedule-meetingroom .el-calendar-table .current:hover .calendar-content-btn-box {
+  display: block;
+}
+
+.schedule-edit-delete {
+  margin-left: 10px;
+}
+
+.schedule-edit-delete .el-button+.el-button {
+  margin-left: 2px;
+}
+
+/* 穿梭框 .app-el-transfer */
+.app-el-transfer .el-transfer-panel {
+  width: 40%;
+}
+
+.app-el-transfer .el-transfer-panel__filter {
+  margin: 0;
+  padding: 2px 15px 8px;
+}
+
+.app-el-transfer .el-transfer-panel__filter .el-input__icon {
+  margin-left: 15px;
+}
+
+.app-el-transfer .el-transfer-panel__item.el-checkbox {
+  display: block;
+}
+
+.app-el-transfer .el-transfer {
+  height: 500px;
+}
+
+.app-el-transfer .el-transfer-panel,
+.app-el-transfer .el-transfer-panel__body {
+  height: 100%;
+}
+
+.app-el-transfer .el-transfer-panel__list.is-filterable {
+  height: 400px;
+}
+
+/* 视频上传 */
+.video-box .upload-box .avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 178px;
+}
+
+.video-box .upload-box .avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+
+.video-box .upload-box .avatar-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 178px;
+  height: 178px;
+  line-height: 178px;
+  text-align: center;
+}
+
+/* 用户中心 */
+.app-center-main-schedule .app-schedule-index-search .el-form-item__label {
+  color: #fff;
+}
+
+.el-form--label-top .el-form-item__label {
+  padding: 0 !important;
+}
+
+.app-center .el-badge__content.is-fixed {
+  right: 24px;
+}
+
+.app-center .el-badge__content.is-fixed {
+  top: 8px;
+}
+
+.app-center .el-calendar__header .el-button--mini,
+.el-button--mini.is-round,
+.app-schedule-leader .el-calendar__header .el-button--mini,
+.el-button--mini.is-round,
+.app-schedule-meetingroom .el-calendar__header .el-button--mini,
+.el-button--mini.is-round {
+  padding: 9px 15px;
+}
+
+.app-center .app-center-schedule .el-calendar__header,
+.app-schedule-leader .el-calendar__header {
+  padding: 12px 140px 12px 20px;
+}
+
+.app-center .app-schedule-meetingroom .el-calendar__header,
+.app-schedule-meetingroom .el-calendar__header {
+  padding: 12px 246px 12px 20px;
+}
+
+/**@Editor富文本编辑器！！！！ **/
+.ueditor-box {
+  line-height: 22px;
+}
+
+.edui-default {
+  z-index: 2002 !important;
+  /*height: auto !important;*/
+}
+
+#edui_fixedlayer.edui-default {
+  z-index: 99999999999999 !important;
+  /*height: auto !important;*/
+}
+
+.edui-default iframe.edui-default,
+.edui-default .edui-popup .edui-shadow {
+  height: 0 !important;
+}
+
+/*全局设置滚动条的样式*/
+.edui-default ::-webkit-scrollbar {
+  /*    width:5px;*/
+  /*    height:16px;*/
+  width: 5px;
+  height: 12px;
+}
+
+.edui-default ::-webkit-scrollbar-track-piece {
+  /*    !*修改滚动条的背景和圆角*!*/
+  /*    background:#abcdef;*/
+  /*    -webkit-border-radius:6px;*/
+  background: #fff;
+}
+
+/*修改垂直滚动条的样式*/
+.edui-default ::-webkit-scrollbar-thumb:vertical {
+  /*    background-color: #ffffff;*/
+  /*    -webkit-border-radius:6px;*/
+  background-color: #ccc;
+}
+
+/*修改水平滚动条的样式*/
+.edui-default ::-webkit-scrollbar-thumb:horizontal {
+  /*    background-color: #faa;*/
+  /*    -webkit-border-radius:6px;*/
+  background-color: #cbcfd6;
+}
+
+/*公文管理*/
+.app-document .document-form-page-box {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+.app-document .document-form-page-title {
+  font-size: 22px;
+  line-height: 36px;
+  font-family: "华文宋体";
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.app-document .document-form-page-subtitle {
+  line-height: 30px;
+  padding-bottom: 4px;
+}
+
+.app-document .document-form-page-content {
+  padding: 2px 0;
+  border-top: 4px solid #aa3130;
+  border-bottom: 4px solid #aa3130;
+}
+
+.app-document .document-form-page-line {
+  position: relative;
+  border-top: 1px solid #aa3130;
+  line-height: 40px;
+}
+
+.document-form-page-line-last {
+  border-bottom: 1px solid #aa3130;
+}
+
+.app-document .document-form-page-left {
+  position: relative;
+  width: 160px;
+}
+
+.app-document .document-form-page-left::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 1px;
+  bottom: -1px;
+  width: 1px;
+  background-color: #aa3130;
+}
+
+.app-document .document-form-page-center {
+  width: 400px;
+}
+
+.app-document .document-form-page-cl {
+  position: relative;
+  width: 160px;
+}
+
+.app-document .document-form-page-cl::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -1px;
+  width: 1px;
+  background-color: #aa3130;
+}
+
+.app-document .document-form-page-cl::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 1px;
+  bottom: -1px;
+  width: 1px;
+  background-color: #aa3130;
+}
+
+.app-document .document-form-page-right {
+  position: relative;
+  width: 240px;
+  min-height: 40px;
+}
+
+.app-document .document-form-page-right::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: -1px;
+  width: 1px;
+  background-color: #aa3130;
+}
+
+.app-document .document-form-page-ueditor {
+  width: 700px;
+  margin: 20px auto 0;
+  color: #333
+}
+
+.app-document .document-form-page-ueditor-html,
+.app-document .app-document-xfdj-info .document-form-page-ueditor-html {
+  min-height: 350px;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 21px;
+  line-height: 34px;
+  font-family: "仿宋", "FangSong";
+}
+
+.app-document .app-document-xfdj-info .document-form-page-ueditor-html {
+  min-height: 150px;
+}
+
+.app-document .document-form-page-showtext {
+  min-height: 40px;
+  padding: 8px;
+  line-height: 24px;
+  text-align: left;
+  color: #444;
+}
+
+.app-document .document-form-page-line .el-input__inner {
+  padding: 6px;
+  font-size: 18px !important;
+  color: #444;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+  border: none;
+  text-align: center;
+}
+
+.app-document .document-form-page-line .el-textarea__inner {
+  padding: 6px;
+  font-size: 18px !important;
+  color: #444;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, sans-serif;
+  border: none;
+}
+
+.document-content-print #sealPicDiv1 {
+  left: 410px !important;
+  top: 0 !important;
+}
+
+/* 招生计划-学生名单 */
+.recruit-students-box .el-table .el-form--inline .el-form-item {
+  margin-bottom: 0;
+}
+
+.recruit-students-box .el-table .el-form--inline .el-form-item__label {
+  color: #99a9bf;
+}
+
+.recruit-students-box .el-table .el-form--inline .el-form-item__content {
+  min-width: 80px;
+}
